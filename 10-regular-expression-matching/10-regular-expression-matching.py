@@ -32,3 +32,5 @@ class Solution:
                 return False
             
         return recM(0, 0)
+        # The above method hasn't used the memoization, so it's slow
+        # I will do this in the followings
