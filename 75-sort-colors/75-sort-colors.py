@@ -17,4 +17,5 @@ class Solution:
         nums[count_zero: count_zero + count_one] = [1] * count_one
         nums[count_zero + count_one:] = [2] * count_two
         
-        return nums
+        return
+        
