@@ -11,13 +11,13 @@ class Solution:
         for i in range(len(s1)):
             count1[s1[i]] = 1 + count1.get(s1[i], 0)
         
-        print(count1)
+        # print(count1)
             
         for i in range(len(s1)):
             count2[s2[i]] = 1 + count2.get(s2[i], 0)
         
         while l + len(s1) - 1 < len(s2):
-            print(count2)
+            # print(count2)
             if count1 == count2:
                 return True
             
