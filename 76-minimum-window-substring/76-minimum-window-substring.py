@@ -1,5 +1,6 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
+        # Sliding Window O(n + m) O(1)
         if t == "": return ""
         countT, window = {}, {} # char -> count
 
