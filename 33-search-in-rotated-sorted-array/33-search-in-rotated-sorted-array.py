@@ -17,7 +17,7 @@ class Solution:
                 # [5, 6, 7, 0, 1, 2, 3, 4] right portion
                 # if nums[l] > nums[mid]:
                 # This part you can't use 'if nums[l] > nums[mid]:'
-                # because l will be updated, but you want to use the olde l
+                # because l will be updated, but you want to use the old l
                 if target < nums[mid] or target > nums[r]:
                     r = mid - 1
                 else:
