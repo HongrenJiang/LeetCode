@@ -12,7 +12,7 @@ class Solution:
             res = min(res, nums[m])
             if nums[m] >= nums[r]:
                 l = m + 1
-            elif nums[m] < nums[l]:
+            else:
                 r = m - 1
         
         return res
